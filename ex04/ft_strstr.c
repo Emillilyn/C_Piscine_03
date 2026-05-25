@@ -6,11 +6,11 @@
 /*   By: evavrinu <evavrinu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/25 18:16:08 by evavrinu          #+#    #+#             */
-/*   Updated: 2026/05/25 18:23:47 by evavrinu         ###   ########.fr       */
+/*   Updated: 2026/05/25 18:48:52 by evavrinu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+// #include <stdio.h>
 
 char	*ft_strstr(char *str, char *to_find)
 {
@@ -34,10 +34,10 @@ char	*ft_strstr(char *str, char *to_find)
 	return (0);
 }
 
-int	main(void)
-{
-	char *str = "Try to find this part of the text";
-	char *to_find = "to find";
+// int	main(void)
+// {
+// 	char *str = "Try to find this part of the text";
+// 	char *to_find = "to find";
 
-	printf("Returned: %s\n", ft_strstr(str, to_find));
-}
+// 	printf("Returned: %s\n", ft_strstr(str, to_find));
+// }
